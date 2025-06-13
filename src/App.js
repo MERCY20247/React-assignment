@@ -1,3 +1,4 @@
+/*
 import logo from './logo.svg';
 import './App.css';
 
@@ -23,3 +24,22 @@ function App() {
 }
 
 export default App;
+*/
+
+import './App.css';
+import './Greet.css';
+import Greet from './Greet';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Greeting Cards</h1>
+      <Greet name="Azairwe Mercy" age={23} school="Green Hill High School" address="Kampala, Uganda" />
+      <Greet name="Aine Angella" age={20} school="St. Mary's College" address="Gulu, Uganda" />
+      <Greet name="Abaho Ethan" age={25} school="Ndejje University" address="Luweero, Uganda" />
+    </div>
+  );
+}
+
+export default App;
+
